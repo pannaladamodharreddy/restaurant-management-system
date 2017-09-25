@@ -1,0 +1,25 @@
+package restaurantsystem;
+public class BillManagement
+private intotal it;
+private order management o;
+private totalprice t;
+private string name;
+private string quantity;
+private double totalprice=0;
+private double sum=0;
+public void setname(string name)
+{
+this.name=name;
+}
+public void setquantity(string quantity)
+{
+this.quantity=quantity;
+}
+public  string getname()
+{
+return name;
+}
+public string getquantity()
+{
+return quantity;
+}
